@@ -1,0 +1,95 @@
+/* Custom styles for the webpage */
+.container {
+    background-color: #FFFFFF;
+    display: flex;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    background-image: url('../assets/images/unsplashrlw_e_8_f_8_an_oc.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 47px;
+    width: 1440px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 0 53px 272.5px 119px;
+    display: flex;
+    padding: 19px 49px;
+    width: 1268px;
+    box-sizing: content-box;
+  }
+  
+  .nav-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  
+  .nav-item {
+    margin: 6.5px 14.5px 6.5px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #262626;
+  }
+  
+  .nav-item.active {
+    font-weight: 800;
+    color: #44C1C9;
+  }
+  
+  .logo {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  .logo-text {
+    text-align: center;
+    font-family: 'Inika', serif;
+    font-size: 32px;
+    line-height: 0.643;
+    color: #262626;
+  }
+  
+  .logo-highlight {
+    background-color: #65AEF2;
+    position: absolute;
+    top: 0;
+    right: 41.6px;
+    width: 10px;
+    height: 0;
+  }
+  
+  .hero-overlay {
+    background: linear-gradient(0deg, rgba(0, 52, 101, 0.72), rgba(0, 0, 0, 0));
+    position: relative;
+    width: 1440px;
+    height: 624.5px;
+  }
+  
+  .hero-text {
+    position: absolute;
+    left: 60px;
+    bottom: 156px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: #FFFFFF;
+  }
+  
